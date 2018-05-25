@@ -19,7 +19,7 @@ $(document).ready(function(){
  
  function pressIt(){
    $('input').on('keydown',function(key){
-     if(key.which === 71){
+     if(key.which === 103){
        alert("G is pressed")
      }
      
