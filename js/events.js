@@ -13,7 +13,7 @@ $(document).ready(function(){
  
  function frameIt(){
    $('img:first').on('load',function(){
-     $('img:first').addClass'.tasty')
+     $('img:first').addClass('.tasty')
    });
  }
  
