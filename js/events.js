@@ -12,7 +12,7 @@ $(document).ready(function(){
  }
  
  function frameIt(){
-   $('.tasty').on('load',function(){
+   $('img:first').on('load',function(){
      
    });
  }
