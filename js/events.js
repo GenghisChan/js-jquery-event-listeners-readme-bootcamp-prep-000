@@ -14,6 +14,7 @@ $(document).ready(function(){
  function frameIt(){
    $('img:first').on('load',function(){
      $('img:first').addClass('.tasty')
+     $('.tasty').style
    });
  }
  
