@@ -16,3 +16,10 @@ $(document).ready(function(){
      
    });
  }
+ 
+ function pressIt(){
+   $('input').on('keydown',function(key){
+     if(key === key.which)
+     
+   })
+ }
