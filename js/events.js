@@ -14,8 +14,8 @@ $(document).ready(function(){
  function frameIt(){
    $('img:first').on('load',function(){
      $('img:first').addClass('.tasty')
-     $('.tasty').css('border','1px solid red')
-   });
+     });
+   $('.tasty').css('border','1px solid red')
  }
  
  function pressIt(){
